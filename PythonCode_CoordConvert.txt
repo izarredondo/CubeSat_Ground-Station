@@ -1,3 +1,6 @@
+# Convert serially input GPS coordinates to degrees & output serially to console
+# Ben Christie & Izabella Arredondo
+
 import os
 import math
 import serial
