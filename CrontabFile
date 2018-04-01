@@ -1,0 +1,4 @@
+sudo crontab -e
+
+# run video script every five minutes and print errors to logs folder
+*/5 * * * * /home/pi/launcher.sh >/home/pi/logs/cronlog 2>&1
